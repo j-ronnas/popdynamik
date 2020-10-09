@@ -77,6 +77,13 @@ rabbitStartPopSlider.oninput = function(){
     rabbitStartPopSliderDisp.innerHTML = parseFloat(rabbitStartPopSlider.value)
 }
 
+// Set initial property displays
+rabbitRSliderDisp.innerHTML = rabbitR
+rfintSliderDisp.innerHTML = rfint
+foxDRsliderDisp.innerHTML = foxDeathRate
+foxStartPopSliderDisp.innerHTML = parseFloat(foxStartPopSlider.value)
+rabbitStartPopSliderDisp.innerHTML = parseFloat(rabbitStartPopSlider.value)
+
 
 function reset(){
     rabbitCount = parseFloat(rabbitStartPopSlider.value)
